@@ -45,7 +45,7 @@ function SideNavBar() {
     return (
         <div>
             <aside className="bg-gray-800 text-white h-screen w-64 p-4 flex flex-col justify-between ">
-                <div>
+                <div className='mb-5'>
                     {/* Image and Name */}
                     <img src={Rubayed_Cropped} alt="Rubayed All Islam" className="w-full rounded-full mb-4" />
                     <h2 className="text-xl font-bold">Rubayed All Islam</h2>
@@ -72,49 +72,49 @@ function SideNavBar() {
                             </Link>
                         </li>
                         <li>
-                            <Link to="/experience" className="flex items-center mt-5" onClick={gotoExperience}>
+                            <Link to="/experience" className="flex items-center my-4" onClick={gotoExperience}>
                                 <FaBriefcase className="inline-block mr-2" />
                                 Experience
                             </Link>
                         </li>
                         <li>
-                            <Link to="/education" className="flex items-center mt-5" onClick={gotoEducation}>
+                            <Link to="/education" className="flex items-center my-4" onClick={gotoEducation}>
                                 <FaGraduationCap className="inline-block mr-2" />
                                 Education
                             </Link>
                         </li>
                         <li>
-                            <Link to="/publications" className="flex items-center mt-5" onClick={gotoPublications}>
+                            <Link to="/publications" className="flex items-center my-4" onClick={gotoPublications}>
                                 <FaScroll className="inline-block mr-2" />
                                 Publications
                             </Link>
                         </li>
                         <li>
-                            <Link to="/skills" className="flex items-center mt-5" onClick={gotoSkills}>
+                            <Link to="/skills" className="flex items-center my-4" onClick={gotoSkills}>
                                 <FaCode className="inline-block mr-2" />
                                 Skills
                             </Link>
                         </li>
                         <li>
-                            <Link to="/academic-service" className="flex items-center mt-5" onClick={gotoAcademicService}>
+                            <Link to="/academic-service" className="flex items-center my-4" onClick={gotoAcademicService}>
                                 <FaChalkboardTeacher className="inline-block mr-2" />
                                 Academic Service
                             </Link>
                         </li>
                         <li>
-                            <Link to="/extracurricular-activities" className="flex items-center mt-5" onClick={gotoExtracurricularActivities}>
+                            <Link to="/extracurricular-activities" className="flex items-center my-4" onClick={gotoExtracurricularActivities}>
                                 <FaRunning className="inline-block mr-2" />
                                 Extracurricular Activities
                             </Link>
                         </li>
                         <li>
-                            <Link to="/seminar-workshops" className="flex items-center mt-5" onClick={gotoSeminarWorkshops}>
+                            <Link to="/seminar-workshops" className="flex items-center my-4" onClick={gotoSeminarWorkshops}>
                                 <FaBookReader className="inline-block mr-2" />
                                 Seminars & Workshops
                             </Link>
                         </li>
                         <li>
-                            <Link to="/accomplishment" className="flex items-center mt-5" onClick={gotoAccomplishments}>
+                            <Link to="/accomplishment" className="flex items-center my-4" onClick={gotoAccomplishments}>
                                 <FaMedal className="inline-block mr-2" />
                                 Accomplishments
                             </Link>
